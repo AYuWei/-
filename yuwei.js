@@ -96,8 +96,11 @@ function NumberCreate(){
         //  返回结果
         return renderx;
     }
-    
-    return create();
+    let data = create();
+    return  {
+        data,
+        NumberPlace
+    };
 }
 
 
