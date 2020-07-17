@@ -97,9 +97,10 @@ function NumberCreate(){
         return renderx;
     }
     let data = create();
+    
     return  {
-        data,
-        NumberPlace
+        data,  // 数组的数据
+        NumberPlace // 数组的数据对象形式
     };
 }
 

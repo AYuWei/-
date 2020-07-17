@@ -1,0 +1,27 @@
+.wrapper{
+    width: 276px;
+    height: 276px;
+    border: 1px solid pink;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.wrapper .item{
+    width: 92px;
+    height: 92px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    float: left;
+}
+.wrapper .item .span{
+    border: 1px solid #e1bebe;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+}
